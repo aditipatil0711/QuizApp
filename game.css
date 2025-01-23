@@ -33,3 +33,33 @@
 .incorrect {
     background-color: #dc3545;
 }
+
+/*HUD*/
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar{
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid #56a5eb;
+    margin-top: 1.5rem;
+}
+
+#progressBarFull{
+    background-color: #56a5eb;
+    height: 3.4rem;
+    width: 0%;
+    
+}
